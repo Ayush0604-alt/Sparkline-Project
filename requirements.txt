@@ -1,0 +1,29 @@
+# ============================================================
+# This project is a Node.js / React stack, not Python — there is no
+# pip-installable requirements.txt in the traditional sense. This file
+# is included to satisfy the submission structure and documents the
+# exact dependency versions used, mirroring backend/package.json and
+# frontend/package.json.
+#
+# To actually install dependencies, run:
+#   cd code/backend  && npm install
+#   cd code/frontend && npm install
+# ============================================================
+
+# ---- Backend (code/backend/package.json) ----
+express==4.19.2
+pg==8.12.0
+dotenv==16.4.5
+cors==2.8.5
+morgan==1.10.0
+
+# ---- Frontend (code/frontend/package.json) ----
+react==18.3.1
+react-dom==18.3.1
+vite==5.3.4
+tailwindcss==3.4.7
+axios==1.7.7
+recharts==2.12.7
+
+# ---- Runtime ----
+node>=18.0.0

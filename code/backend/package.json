@@ -1,0 +1,23 @@
+{
+  "name": "crane-monitoring-backend",
+  "version": "1.0.0",
+  "description": "IoT Crane Monitoring Dashboard - Backend API (Express + pg + Neon Postgres)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node scripts/initDb.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FFF7ED;
+  color: #1C1917;
+}
+
+/* Custom scrollbar in brand tones, kept subtle */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF7ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #FDBA74;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FB923C;
+}
+
+/* Visible keyboard focus ring (accessibility, not just mouse hover) */
+:focus-visible {
+  outline: 2px solid #F97316;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

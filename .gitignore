@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+code/backend/node_modules/
+code/frontend/node_modules/
+
+# Environment variables (never commit real secrets)
+.env
+.env.local
+.env.*.local
+code/backend/.env
+code/frontend/.env
+
+# Build output
+dist/
+build/
+code/frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Vite cache
+.vite/
+
+# Misc
+*.local
+coverage/

@@ -4,6 +4,8 @@ A full-stack IoT telemetry dashboard for monitoring industrial cranes in
 real time — built with **React + Vite + Tailwind** on the frontend and
 **Node.js + Express + raw PostgreSQL (`pg`)** on the backend, deployed
 against **Neon** serverless Postgres.
+
+---
 #Live url: https://sparkline-project-1.onrender.com/
 
 ---
